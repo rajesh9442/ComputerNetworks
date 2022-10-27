@@ -1,1 +1,1 @@
-# ComputerNetworks
+In order to create an SMTP email client for this project, I used socket programming and common I/O in Python. As command line parameters, the software accepts a variable number of file names. By contacting the receiver's incoming email server, this application will deliver the email included in each file to its appropriate recipient. The email's destination address determines which email server to use. The application establishes a network socket connection with the receiving server before sending the email. The exchange is conducted over SMTP.
